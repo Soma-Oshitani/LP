@@ -6,28 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="LP.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img src="logo.png" id="logo">
-        <div id="link">
-            <a href="LP.html">お問い合わせ</a>
-            <a href="LP.html">修了生の声</a>
+        <div id="link" class="desktop-hidden_2 desktop-hidden_3">
+            <a href="https://wao-letscode.com/">ログイン</a>
+            <a href="https://www.wao-corp.com/contact/">お問い合わせ</a>
+            <a href="#container_7">修了生の声</a>
+            <a href="#container_10">料金表</a>
+        </div>
+        <div class="desktop-hidden_1">
+            <div class="openbtn1 desktop-hidden_1"><span></span><span></span><span></span></div>
+            <nav id="g-nav">
+                <div id="g-nav-list" class="desktop-hidden_1"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+                <ul id="link">
+                    <li><a href="https://wao-letscode.com/">ログイン</a></li>  
+                    <li><a href="https://www.wao-corp.com/contact/">お問い合わせ</a></li>  
+                    <li><a href="#container_7">修了生の声</a></li>  
+                    <li><a href="#container_10">料金表</a></li>  
+                </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
     <div id="container_1">
         <div id="text_1-1">
-            <p>学習塾が開発した<br>オンラインプログラミング講座</p>
+            <p>学習塾が開発した<br>オンライン<br>プログラミング講座</p>
         </div>
         <div id="text_1-2">
             <p>WAO Let's Code</p>
         </div>
-    </div>
+    </div> 
 
     <div id="container_2">
         <div id="textbox_2">
-            <p>はじめての方のオンラインプログラミング学習サービス<br><br>
+            <p>はじめての方の<br class="desktop-hidden_1">オンラインプログラミング学習サービス<br><br>
                どこよりもていねいにプログラミングを学べ<br>
                中高生でも無理なく取り組めます<br><br>
                今から登録なしで、無料講座18回
@@ -68,11 +86,11 @@
             <div class="box_4">
                 <div class="title_4">
                     <p class="number">1</p>
-                    <p>細分化された目標</p>
+                    <p>きめ細かな目標</p>
                 </div>
                 <div class="contents_4">
                     <div>
-                        <img src="photo_5.png" id="photo_5">
+                        <img src="photo_5.png" class="photos_4">
                     </div>
                     <div class="textbox_4">
                         <p>
@@ -89,11 +107,11 @@
             <div class="box_4">
                 <div class="title_4">
                     <p class="number">2</p>
-                    <p>豊富な演習量</p>
+                    <p>たくさんのドリル</p>
                 </div>
                 <div class="contents_4">
-                    <div class="photo_4" id="photos">
-                        <img src="photo_6.png" id="photo_6">
+                    <div class="photo_4">
+                        <img src="photo_6.png" class="photos_4">
                     </div>
                     <div class="textbox_4">
                         <p>
@@ -115,7 +133,7 @@
                 </div>
                 <div class="contents_4">
                     <div>
-                        <img src="photo_7.png" id="photo_7">
+                        <img src="photo_7.png" class="photos_4">
                     </div>
                     <div class="textbox_4">
                         <p>
@@ -139,51 +157,45 @@
     </div>
 
     <div id="container_6">
-
         <div class="box_6">
             <div class="title_6">
                 <p class="subject_6">
                     HTML
                 </p>
                 <p class="textbox_6">
-                    Webブラウザ上に表示する<br>
-                    コンテンツの内容を記述する言語
+                    Webブラウザ上に<br class="desktop-hidden_1">表示する<br class="desktop-hidden_2" class="desktop-hidden_3">コンテンツの<br class="desktop-hidden_1">内容を記述する言語
                 </p>
             </div>
-            <div class="photos_6">
-                <img src="photo_8.png">
+            <div class="items_6">
+                <img src="photo_8.png" class="photos_6">
             </div>
         </div>
-
         <div class="box_6">
             <div class="title_6">
                 <p class="subject_6">
                     CSS
                 </p>
                 <p class="textbox_6">
-                    文字の色、大きさ、背景、配置<br>
-                    といったスタイルを設定する言語
+                    文字の色、<br class="desktop-hidden_1">大きさ、背景、配置<br>といったスタイルを<br class="desktop-hidden_1">設定する言語
                 </p>
             </div>
-            <div class="photos_6">
-                <img src="photo_9.png">
+            <div  class="items_6">
+                <img src="photo_9.png" class="photos_6">
             </div>
         </div>
-
         <div class="box_6">
             <div class="title_6">
                 <p class="subject_6">
                     JavaScript
                 </p>
                 <p class="textbox_6">
-                    Webページに動きを付け加える言語
+                    Webページに動きを<br class="desktop-hidden_1">付け加える言語
                 </p>
             </div>
-            <div class="photos_6">
-                <img src="photo_10.png">
+            <div class="items_6">
+                <video src="video_1.webm" autoplay muted id="video_1"> </video>
             </div>
         </div>
-
     </div>
 
     <div id="container_7">
@@ -210,7 +222,7 @@
     <div id="container_9">
         <div id="textbox_9">
             <p>
-                あなたの想像をカタチにしてみませんか？
+                あなたの想像を<br class="desktop-hidden_1 desktop-hidden_2">カタチにしてみませんか？
             </p>
         </div>
     </div>
@@ -227,7 +239,7 @@
                     <p class="title_11">
                         体験編・入門編
                     </p>
-                    <p>
+                    <p id="text_11-1">
                         初歩的なレッスンの一部
                     </p>
                     <p class="price">
@@ -240,8 +252,8 @@
                     <p class="title_11">
                         速習編・基本編
                     </p>
-                    <p>
-                        公開しているレッスンのすべて
+                    <p id="text_11-2">
+                        公開している<br class="desktop-hidden_1">すべてのレッスン
                     </p>
                     <p class="price">
                         <span class="small">税込み</span>￥1000<span class="small">/月</span>
@@ -258,5 +270,39 @@
         </p>
         <input type="button" onclick="location.href='https://wao-letscode.com/'" value="始める">
     </div>
+
+    <footer>
+        <div id="logos">
+            <img src="logo_2.png" class="logo_footer"><br>
+            <img src="logo.png" class="logo_footer">
+        </div>
+        <div id="content_13">
+            <div class="contents_13">
+                <h3>
+                    製品・サービス
+                </h3>
+                <a href="#">Let's Codeについて</a><br>
+                <a href="#container_7">修了生の声</a><br>
+                <a href="#container_10">料金表</a>
+            </div>
+            <div class="contents_13">
+                <h3>
+                    サポート
+                </h3>
+                <a href="https://www.wao-corp.com/">運営会社</a><br>
+                <a href="#">利用規約</a><br>
+                <a href="#">お知らせ</a>
+            </div>
+            <div class="contents_13">
+                <h4>
+                    SNS
+                </h4>
+                <a href="https://twitter.com/let_wao">Twitter</a><br>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+    <script src="LP.js"></script>
 </body>
 </html>
